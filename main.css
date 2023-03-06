@@ -27,11 +27,11 @@ body {
     display: flex;
     grid-area: nav;
     justify-content: center;
+    background-color: var(--black-bean);
 }
 
 .nav ul li {
     display: flex;
-    ;
     float: left;
     justify-content: space-evenly;
     padding-left: 2em;
@@ -40,22 +40,22 @@ body {
 .header {
     display: flex;
     padding: 2em;
-    background-color: cyan;
+    background-color: var(--orange-web);
     grid-area: header;
     justify-content: space-evenly;
 }
 
 .aside {
-    background-color: yellowgreen;
+    background-color: var(--jet);
     grid-area: aside;
 }
 
 .main {
-    background-color: violet;
+    background-color: var(--eerie-black);
     grid-area: main;
 }
 
 .footer {
-    background-color: magenta;
+    background-color: var(--davys-gray);
     grid-area: footer;
 }
