@@ -1,19 +1,27 @@
 body {
-    display: grid;
-    grid-template-columns: 10% 40% 40% 10%;
-    grid-template-rows: auto;
-    grid-template-areas: 
-    "nav nav nav nav"
-    "header header header header"
-    "main main main main"
-    "footer footer footer footer";
+    grid-template-areas:
+        "nav nav nav nav"
+        "header header header header"
+        "main main main main"
+        "footer footer footer footer";
 }
+
 .aside {
     display: none;
 }
 
 .nav {
-    display: none;
+    display: block;
+    background-color: var(--black-bean);
+    position: fixed;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100vh;
+}
+
+.nav ul li {
+    display: block;
 }
 
 .show-nav {
