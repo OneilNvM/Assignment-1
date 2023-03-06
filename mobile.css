@@ -8,4 +8,10 @@ body {
     "main main main main"
     "footer footer footer footer";
 }
+.aside {
+    display: none;
+}
 
+.nav {
+    display: none;
+}
