@@ -15,3 +15,19 @@ body {
 .nav {
     display: none;
 }
+
+.show-nav {
+    height: 0.8em;
+    width: 1.25em;
+    display: block;
+    border-top: 0.2em solid white;
+    border-bottom: 0.2em solid white;
+}
+
+.show-nav::before {
+    content: '';
+    position: absolute;
+    width: 1.25em;
+    margin-top: 0.3em;
+    border-top: 0.2em solid white;
+}
