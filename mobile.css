@@ -22,6 +22,7 @@ body {
 
 .nav ul li {
     display: block;
+    float: none;
 }
 
 .show-nav {
